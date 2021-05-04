@@ -1,2 +1,2 @@
 # discord-crypto-bot
-Used to get cryptocurrency values on discoed
+Used to get cryptocurrency values on discord
