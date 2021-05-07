@@ -4,9 +4,9 @@ A simple bot for discord that gets up to date crypto prices from https://coinran
 # Requirements
 * Python 3
 * Python Packages:
- * Discord Py (https://discordpy.readthedocs.io/en/stable/intro.html)
- * Requests
- * Pandas
+  * Discord Py (https://discordpy.readthedocs.io/en/stable/intro.html)
+  * Requests
+  * Pandas
 
 # Installation and Setup
 * Go to https://coinranking.com/page/key-generator and create a new API key and save it for later(free version is limited to 200k uses per month)
@@ -16,8 +16,8 @@ A simple bot for discord that gets up to date crypto prices from https://coinran
 git clone https://github.com/JonatDenner/discord-crypto-bot.git
 ```
 * Open the downloaded folder and create two files
- * ".login", where you will put the bot token
- * ".api", where you will put your coinranking api key
+  * ".login", where you will put the bot token
+  * ".api", where you will put your coinranking api key
 * Set the bot prefix to whatever you want it to be by changing the $ on line 11 of bot.py
 ```python
 bot = commands.Bot(command_prefix='$',  intents=intents,  case_insensitive='true')
